@@ -1,7 +1,7 @@
-[![Contributors][contributors-sigspect]][contributors-url]
-[![Stargazers][stars-sigspect]][stars-url]
-[![Issues][issues-sigspect]][issues-url]
-[![MIT License][license-sigspect]][license-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 
 <!-- HEADER -->
