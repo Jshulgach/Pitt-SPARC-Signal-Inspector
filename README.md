@@ -68,6 +68,7 @@ To report any issues found, suggest improvements, or request a new feature, plea
 Signal Inspector is distributed under the MIT License. See [LICENSE](https://github.com/Jshulgach/Pitt-SPARC-Signal-Inspector/blob/master/LICENSE) for more information.
 
 ## Acknowledgements
+* This work was supported by National Institutes of Health funding (Common fund SPARC Program award U18TR002205)
 * [NIH SPARC Initiative](https://commonfund.nih.gov/sparc)
 * Beta testers, including:
   * Michael Sciullo (UPMC Hillman Cancer Center)
