@@ -21,20 +21,20 @@ Supported OS environments:
 ## Table of Contents
 
 * [About](#about)
-* [Prerequisites](#Prerequesites)
-* [Installation](#Downloading-sigspec)
-* [Use Signal Inspector](#Using-sigspec)
-* [Issues and feedback](#Issues-and-feedback)
-* [License](#License)
-* [Acknowledgements](#Acknowledgements)
+* [Prerequesites](#prerequesites)
+* [Installation](#installation)
+* [Using Signal Inspector](#using-signal-inspector)
+* [Issues and feedback](#issues-and-feedback)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
 
 
 <!-- ABOUT -->
 ## About
-The University of Pittsburgh SPARC Signal Inspector is a Matlab-based desktop software application intended to assist in the dynamic searching and evaluation of physiological signals. Signal Inspector is designed with a friendly GUI to streamline the data analyis process and integrate into your processing pipeline for [SPARC](https://commonfund.nih.gov/sparc) investigators. Signal Inspector has been tested on versions of Matlab 2018 and newer.
+Pitt SPARC Signal Inspector is a Matlab-based desktop software application intended to assist in the dynamic searching and evaluation of physiological signals. Signal Inspector is designed with a friendly GUI to streamline the data analyis process and integrate into your processing pipeline for [SPARC](https://commonfund.nih.gov/sparc) investigators. Signal Inspector has been tested on versions of Matlab 2018 and newer.
 
 
-## Prerequisites
+## Prerequesites
 The application depends on the following packages installed with your Matlab license:
  - [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html) (Required)
  - [Parallel Computing Toolbox](https://www.mathworks.com/products/parallel-computing.html) (Optional) 
@@ -51,9 +51,19 @@ The application depends on the following packages installed with your Matlab lic
 
 2. Pitt SPARC Signal Inspector is distributed as an App which can be easily installed through the use of Matlab's App installer. Open the Matlab UI, click on the "Apps" tab, select "Install App", and navigate to file directory.
 
-All our releases are accessible in the [releases tab](https://github.com/bvhpatel/SODA/releases). Latest version: 1.0.0
+## Using Signal Inspector
+Files able to be loaded in the UI include:
+* .nev
+* .ns5
+* .nf3
 
-Although we would highly encourage you to use SODA for the entire organization and submission process of your dataset, SODA is designed such that you are not bound to using the software for all of the steps: you can perform desired steps from SODA and others outside. 
+Multiple channels can be read by splitting numbers with comma (2,3,6) or range with colon (1:32).
+
+All files in specified path will be read sorted by name, except for datafiles excluded by name (ex: datafile0001).
+
+Press "Load New Data" button to combine raw data files into one continuous vector.
+
+Clicking on a Channel in the Display dropdown menu will update all figures with new Channel data.
 
 ## Issues and feedback
 To report any issues found, suggest improvements, or request a new feature, please open a new issue via the [Issues tab](https://github.com/Jshulgach/Pitt-SPARC-Signal-Inspector/issues).
