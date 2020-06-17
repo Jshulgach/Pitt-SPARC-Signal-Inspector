@@ -52,18 +52,14 @@ The application depends on the following packages installed with your Matlab lic
 2. Pitt SPARC Signal Inspector is distributed as an App which can be easily installed through the use of Matlab's App installer. Open the Matlab UI, click on the "Apps" tab, select "Install App", and navigate to file directory.
 
 ## Using Signal Inspector
-Files able to be loaded in the UI include:
-* .nev
-* .ns5
-* .nf3
+For a full description and helpful tips with using Signal Inspector, refer to the documentation in the [wiki](https://github.com/Jshulgach/Pitt-SPARC-Signal-Inspector/wiki).
 
-Multiple channels can be read by splitting numbers with comma (2,3,6) or range with colon (1:32).
-
-All files in specified path will be read sorted by name, except for datafiles excluded by name (ex: datafile0001).
-
-Press "Load New Data" button to combine raw data files into one continuous vector.
-
-Clicking on a Channel in the Display dropdown menu will update all figures with new Channel data.
+- Supports reading .ns5 and nf3 file types
+- Multiple channels can be read by splitting numbers with comma (2,3,6) or range with colon (1:32).
+- All files in specified path will be read sorted by name, except for datafiles excluded by name (ex: datafile0001).
+- Press "Load New Data" button to combine raw data files into one continuous vector.
+- Clicking on a Channel in the Display dropdown menu will update all figures with new Channel data.
+- Data can be saved afterwards as a .mat or .h5 file type.
 
 ## Issues and feedback
 To report any issues found, suggest improvements, or request a new feature, please open a new issue via the [Issues tab](https://github.com/Jshulgach/Pitt-SPARC-Signal-Inspector/issues).
