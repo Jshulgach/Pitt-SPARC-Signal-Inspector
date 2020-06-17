@@ -18,10 +18,10 @@
     By SPARC investigators, for SPARC investigators
   </p>
 </p>
-### Supported OS environments
-*   Windows (developed and tested on Windows 10)
-*   Mac  (tested on Mojave 10.14) 
-*   Linux (in testing) 
+#### Supported OS environments
+* Windows (developed and tested on Windows 10)
+* Mac  (tested on Mojave 10.14) 
+* Linux (in testing) 
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
