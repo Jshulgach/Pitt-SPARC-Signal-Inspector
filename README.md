@@ -70,6 +70,8 @@ Signal Inspector is distributed under the MIT License. See [LICENSE](https://git
 ## Acknowledgements
 * This work was supported by National Institutes of Health funding (Common fund SPARC Program award U18TR002205)
 * [NIH SPARC Initiative](https://commonfund.nih.gov/sparc)
+* [SPARC Portal](https://sparc.science/)
+* Charles Horn (University of Pittsburgh) - Prelimilary design with graphical figures and data processing pipeline
 * Beta testers, including:
   * Michael Sciullo (UPMC Hillman Cancer Center)
   * Stephanie Fulton (UPMC Hillman Cancer Center)
