@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="/doc/images/pitt_SPARC_logo.png" alt="Logo" width="200" height="200">
+    <img src="/doc/images/pitt_SPARC_logo.png" alt="Logo" width="400" height="200">
   </a>
 </p>
 
