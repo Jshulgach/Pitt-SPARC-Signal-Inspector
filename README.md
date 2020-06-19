@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="/doc/images/pitt_SPARC_logo.png" alt="Logo" width="400" height="200">
+    <img src="/doc/images/pitt_SPARC_logo.png" alt="Logo" width="250" height="200">
   </a>
 </p>
 
@@ -31,7 +31,7 @@ Supported OS environments:
 
 <!-- ABOUT -->
 ## About
-Pitt SPARC Signal Inspector is a Matlab-based desktop software application intended to assist in the dynamic searching and evaluation of physiological signals. Signal Inspector is designed with a friendly GUI to streamline the data analyis process and integrate into your processing pipeline for [SPARC](https://commonfund.nih.gov/sparc) investigators. Signal Inspector has been tested on versions of Matlab 2018 and newer.
+Pitt SPARC Signal Inspector is a Matlab-based desktop software application intended to assist in the dynamic searching and evaluation of physiological signals. Signal Inspector is designed with a friendly GUI to streamline the data analyis process and integrate into your processing pipeline for [SPARC](https://commonfund.nih.gov/sparc) investigators, including its abilitiy to work with Ripple files.  Signal Inspector has been tested on versions of Matlab 2018 and newer.
 
 
 ## Prerequesites
@@ -54,7 +54,7 @@ The application depends on the following packages installed with your Matlab lic
 ## Using Signal Inspector
 For a full description and helpful tips with using Signal Inspector, refer to the documentation in the [wiki](https://github.com/Jshulgach/Pitt-SPARC-Signal-Inspector/wiki).
 
-- Supports reading .ns5 and nf3 file types
+- Supports reading .ns5 and nf3 Ripple file types
 - Multiple channels can be read by splitting numbers with comma (2,3,6) or range with colon (1:32).
 - All files in specified path will be read sorted by name, except for datafiles excluded by name (ex: datafile0001).
 - Press "Load New Data" button to combine raw data files into one continuous vector.
